@@ -1,0 +1,49 @@
+.loading
+{
+	font-family: Arial;
+	font-size: 10pt;
+	border: 5px solid #67CFF5;
+	width: 200px;
+	height: 100px;
+	display: none;
+	position: fixed;
+	background-color: White;
+	z-index: 999;
+}
+
+#notificationscroller span {
+    color: #333;
+    display: block;
+    font-size: 12px;
+    line-height: 13px;
+}
+.notification li {
+    padding: 10px;
+}
+#notificationscroller span b {
+    display: block;
+    font-size: 11px;
+    line-height: 32px;
+}
+
+/**info status**/
+
+.infodanger{
+
+	color:red;
+
+	font-size:20px !important;	
+
+}
+
+.infosuccess{
+
+	color:green;	
+
+	font-size:20px !important;	
+
+}
+.rev_img_btm {
+    margin-top: 10px;
+    width: 100%;
+}
